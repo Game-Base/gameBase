@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ServerListViewSkin" width="750" height="1334" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="16aece327e5"/>
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image source="serverlist_ui_fwq_bg5_png" width="640"   height="896" x="1" y="6" scale9Grid="75,68,18,15"/>
+		<e:Image source="serverlist_ui_fwq_bg3_png" y="75" scale9Grid="22,20,4,4"  width="600"  height="802" horizontalCenter="0"/>
+		<e:Image source="serverlist_ui_fwq_bg2_png" x="6" y="327"  width="619"  height="560"/>
+		<e:Image source="serverlist_common_dikuang_png" scale9Grid="17,20,67,63" y="81" width="198" height="791"   x="23"/>
+		<e:Image source="serverlist_common_biaotitou_png"    horizontalCenter="0"/>
+		<e:Scroller width="200" y="90" x="20"  height="780">
+			<e:Group>
+				<e:TabBar id="tab_server" width="188"   itemRendererSkinName="ServerListTabbarButton"   x="6" y="2">
+					<e:layout>
+					<e:VerticalLayout/>
+					</e:layout>
+					<e:ArrayCollection>
+					<e:Array>
+						<e:Object label="我的区服"/>
+					</e:Array>
+					</e:ArrayCollection>
+				</e:TabBar>
+			</e:Group>
+		</e:Scroller>
+		<e:Scroller width="381" height="780" y="90"   x="227" scrollPolicyH="off">
+			<e:List id="listServer"  width="347"  height="360">
+				<e:layout>
+					<e:VerticalLayout gap="15"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+
+		<e:Image source="serverlist_ui_bh_wenzi_png" x="228" y="10"/>
+		<e:Image id="btnClose" source="serverlist_common_guanbi_png" anchorOffsetX="44" anchorOffsetY="41"   right="-9" top="-24"/>
+
+	</e:Group>
+</e:Skin>

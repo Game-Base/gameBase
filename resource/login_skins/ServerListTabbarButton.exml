@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="ServerListTabbarButton" states="up,down" minHeight="50" minWidth="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="188">
+    <e:Image width="100%" height="100%" source.up="serverlist_ui_fwq_btn2_png" source.down="serverlist_ui_fwq_btn1_png" source="serverlist_ui_fwq_btn2_png"/>
+    <e:Label id="labelDisplay" top="6" bottom="10" left="9" right="7"              size="26"              verticalAlign="middle" textAlign="center" fontFamily="specialGameFont" text="{data.label}" textColor.up="0xffffff" strokeColor.up="0x701c0a" stroke.up="2" textColor="0xffffff" strokeColor="0x701c0a" stroke="1"/>
+      <e:Image horizontalCenter="0" verticalCenter="0" source="" source.up=""/>
+
+	<w:Config id="15dc0771e81" ></w:Config>
+</e:Skin>

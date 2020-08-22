@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ServerItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="390" height="70">
+	<e:Image source="serverlist_dikuang4_png"  width="390" y="1" height="70" scale9Grid="19,17,52,58"/>
+	<e:Image id="imgMark" source=""/>
+	<e:Image id="imgState" source="serverlist_common_dian_png" y="20" left="42" width="31" height="32"/>
+
+
+	<e:Group x="89" y="23">
+		<e:Label id="labServerNum" text="1000区"   size="26" fontFamily="specialGameFont"  textAlign="left" textColor="0x803f07" bold="false"/>
+		<e:Label id="labServerName" text="提审服" x="105"  size="26" fontFamily="specialGameFont"  textAlign="left" textColor="0x803f07" bold="false"/>
+		<e:layout>
+			<e:HorizontalLayout gap="15"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

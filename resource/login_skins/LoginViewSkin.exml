@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="LoginViewSkin" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:qmr="qmr.*" states="publish,beforeLogin" >
+	<e:Image id="imgBg" right="0" top="1" bottom="-1" left="0" width="750" height="1334" source=""/>
+	<e:Group id="groupWind" width="750" bottom="0" height="1334" visible="true">
+		<e:Image source="serverlist_wind_png" y="644.72" scaleX="1" scaleY="1" width="647" horizontalCenter="-12.5" visible="false"/>
+		<e:Image id="imgWindSlow" source="serverlist_wind_png" y="700" scaleX="1" scaleY="1" width="647"/>
+		<e:Image id="imgWindFast" source="serverlist_wind_png" y="730" scaleX="1" scaleY="1" width="647"/>
+		<e:Image id="imgWindMiddle" source="serverlist_wind_png" y="750" scaleX="1" scaleY="1" width="647" x="10"/>
+		<e:Label id="lbAge" text="适龄范围：18~50岁" fontFamily="specialGameFont" size="18" strokeColor="0x842813" anchorOffsetY="0" height="45" anchorOffsetX="0" stroke="1" wordWrap="true" textAlign="center" lineSpacing="10" bottom="150" horizontalCenter="1" bold="true" visible="true"/>
+	</e:Group>
+	<e:Group width="1057" height="883" bottom="345" horizontalCenter="28.5">
+		<e:Group id="groupMonkey" y="0" x="0" scaleX="1" scaleY="1">
+			<e:Group id="groupRoleMonkey" y="700" x="495"/>
+
+		</e:Group>
+	</e:Group>
+
+	<e:Group id="groupLogin" horizontalCenter="0" x="150"  height="340" bottom.beforeLogin="180"  width="484" bottom.publish="150" verticalCenter="303" visible="true">
+		<e:Image width="417" height="73" includeIn="beforeLogin" x="32" y="121" source="serverlist_ui_denglu_kuang_png" scale9Grid="25,26,30,44"/>
+
+
+		<e:Button id="btn_login" label="" y="274"   anchorOffsetX="152" anchorOffsetY="55" horizontalCenter="0" horizontalCenter.publish="0" y.publish="299.68" anchorOffsetY.publish="50">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="serverlist_ui_denglu_anniu_png" source.down="serverlist_ui_denglu_anniu_png"/>
+				<e:Label stroke="1" id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+		</e:Button>
+		<e:Group id="gpRead" y="215" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0.5" visible="true" includeIn="publish">
+			<e:CheckBox id="cbRead" x="10" y="1" scaleX="1" scaleY="1" anchorOffsetX="0" width="51" skinName="CheckBoxLoginSkin"/>
+			<e:Label text="我已详细阅读并同意" x="288" y="13" fontFamily="specialGameFont" strokeColor="0x842813" stroke="1" size="24"/>
+			<e:Label id="lbUserBook" text="用户手册" x="458" y="23" fontFamily="specialGameFont" size="24" stroke="1" textColor="0xFFCC66" strokeColor="0x150F00"/>
+			<e:Label text="和" x="418" y="13" fontFamily="specialGameFont" strokeColor="0x842813" stroke="1" size="24"/>
+			<e:Label id="lbPrivacyPolicy" text="隐私协议" x="448" y="13" fontFamily="specialGameFont" size="24" stroke="1" textColor="0xFFCC66" strokeColor="0x150F00"/>
+			<e:layout>
+				
+			
+		
+			<e:HorizontalLayout verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+
+
+
+		<e:Group height="73" includeIn="publish" y="56"  left="0" right="0">
+			<e:Image height="73" includeIn="publish" y="-3" source="serverlist_ui_denglu_kuang_png" scale9Grid="25,26,30,44"   left="0" right="0"/>
+			<e:Image source="serverlist_ui_denglu_tuijian_png" includeIn="publish" x="12" y="7"  />
+			<e:Label text="最新服" includeIn="publish" x="86" y="20" textColor="0x31ff2c" fontFamily="specialGameFont"  />
+			<e:Label id="txt_severmax" text="" includeIn="publish" y="20" fontFamily="specialGameFont" textColor="0xffffff"   right="30"/>
+		</e:Group>
+		<e:Group id="g_select" height="73" includeIn="publish" y="145"  left="0" right="0">
+			<e:Image height="73" includeIn="publish" y="-3" source="serverlist_ui_denglu_kuang_png" scale9Grid="25,26,30,44"   left="0" right="0"/>
+			<e:Label id="txt_new" text="点击选服" includeIn="publish" y="20" textColor="0x31FF2C" fontFamily="specialGameFont"   right="30"/>
+			<e:Label id="txt_severname" text="" includeIn="publish" y="20" fontFamily="specialGameFont" textColor="0xFFFFFF" x="80"   anchorOffsetX="0"/>
+			<e:Image source="serverlist_point_png" x="20" y="18"  />
+		</e:Group>
+		<e:Group id="groupAccount" x="38" y="139" includeIn="beforeLogin" visible="true">
+			<e:TextInput id="txt_account" maxChars="35" x="95"  prompt="请输入账号" skinName="ServerListTextInputSkin"/>
+			<e:Label stroke="1" text="账号:" x="25" y="4"   fontFamily="specialGameFont" size="28"/>
+		</e:Group>
+	</e:Group>
+	<e:Label id="lbl_ver" text="version:2019.4.1.101" bold="false" textColor="0xffffff" stroke="1" strokeColor="0x2b8ad1" borderColor="0x297bd1"  size="26" top="15" left="15"/>
+
+
+	<e:Group id="btn_switch" anchorOffsetX="48" anchorOffsetY="49" height="100" right="10" width="100" top="25">
+		<e:Image includeIn="publish" source="serverlist_qiehuanzhanghao_png"/>
+	</e:Group>
+	<e:Label text="出版单位名称：北京中科奥科技有限公司" fontFamily="specialGameFont" size="18" strokeColor="0x842813" anchorOffsetY="0" height="45" anchorOffsetX="0" stroke="1" wordWrap="true" textAlign="center" lineSpacing="10" bottom="70" text.beforeLogin="出版单位名称：北京中科奥科技有限公司" textAlign.beforeLogin="center" x.beforeLogin="120" horizontalCenter="0.5" bold="true"/>
+	<e:Label text="适度游戏益脑 沉迷游戏伤身 合理安排时间 享受健康生活" fontFamily="specialGameFont" size="18" strokeColor="0x842813" anchorOffsetY="0" height="45" anchorOffsetX="0" stroke="1" wordWrap="true" textAlign="center" lineSpacing="10" bottom="98" horizontalCenter="0.5" bold="true"/>
+	<e:Label text="抵制不良游戏 拒绝盗版游戏 注意自我保护 谨防受骗上当" fontFamily="specialGameFont" size="18" strokeColor="0x842813" anchorOffsetY="0" height="45" anchorOffsetX="0" stroke="1" wordWrap="true" textAlign="center" lineSpacing="10" bottom="124" horizontalCenter="1" bold="true"/>
+	<e:Label text="运营单位名称：石家庄优果软件科技有限公司  软著登记号：2017SR185471" fontFamily="specialGameFont" size="18" strokeColor="0x842813" anchorOffsetY="0" height="45" anchorOffsetX="0" stroke="1" wordWrap="true" textAlign="center" lineSpacing="10" bottom="41" horizontalCenter="0" bold="true"/>
+	<e:Label text="来文文号：京新广文[2017]1659号  审批文号：新广出审[2017]7722号" fontFamily="specialGameFont" size="18" strokeColor="0x842813" anchorOffsetY="0" height="45" anchorOffsetX="0" stroke="1" wordWrap="true" textAlign="center" lineSpacing="10" bottom="11" horizontalCenter="0.5" bold="true"/>
+	<e:Label text="著作权人：广州迅娱网络科技有限公司  ISBN：978-7-498-00756-8" fontFamily="specialGameFont" size="18" strokeColor="0x842813" anchorOffsetY="0" height="27" anchorOffsetX="0" stroke="1" wordWrap="true" textAlign="center" lineSpacing="10" bottom="0" horizontalCenter="0.5" bold="true"/>
+
+</e:Skin>

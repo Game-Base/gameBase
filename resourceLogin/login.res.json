@@ -1,0 +1,66 @@
+{
+	"groups": [
+		{
+			"keys": "configbase_bin,preloading_json",
+			"name": "loginPre"
+		},
+		{
+			"keys": "serverlist_json",
+			"name": "login"
+		}
+	],
+	"resources": [
+		{
+			"url": "config/configbase.bin",
+			"type": "bin",
+			"name": "configbase_bin"
+		},
+		{
+			"url": "sheet/preloading.json",
+			"type": "sheet",
+			"name": "preloading_json",
+			"subkeys": "preloading_anniud_down_png,preloading_anniud_png,preloading_defaultBody_png,preloading_loading_png,preloading_ui_denglu_jindu_png,preloading_ui_denglu_yun_png,preloading_ui_jindu_di_png,preloading_ui_ty_diaoxiantishi_png,preloading_ui_ty_tishikuang_png"
+		},
+		{
+			"url": "sheet/serverlist.json",
+			"type": "sheet",
+			"name": "serverlist_json",
+			"subkeys": "serverlist_biao2_png,serverlist_biao_png,serverlist_common_bg5_png,serverlist_common_biaotitou_png,serverlist_common_dian_png,serverlist_common_dikuang2_png,serverlist_common_dikuang_png,serverlist_common_guanbi_png,serverlist_common_title_bg_png,serverlist_dikuang4_png,serverlist_gonggao_png,serverlist_gonggaobiaoti_png,serverlist_point_png,serverlist_qiehuanzhanghao_png,serverlist_ui_bh_wenzi_png,serverlist_ui_denglu_anniu_png,serverlist_ui_denglu_kuang_png,serverlist_ui_denglu_tuijian_png,serverlist_ui_fwq_bg3_png,serverlist_ui_fwq_bg5_png,serverlist_ui_fwq_btn1_png,serverlist_ui_fwq_btn2_png,serverlist_ui_fwq_sj_png,serverlist_ui_fwq_wh_png,serverlist_ui_icon_di_png,serverlist_ui_ty_ld_png"
+		},
+		{
+			"url": "unpack/serverlist_ui_fwq_bg2.png",
+			"type": "image",
+			"name": "serverlist_ui_fwq_bg2_png"
+		},
+		{
+			"url": "unpack/serverlist_wind.png",
+			"type": "image",
+			"name": "serverlist_wind_png"
+		},
+		{
+			"url": "unpack/serverlist_loginBg.jpg",
+			"type": "image",
+			"name": "serverlist_loginBg_jpg"
+		},
+		{
+			"url": "unpack/loadingNiu.jpg",
+			"type": "image",
+			"name": "loadingNiu_jpg"
+		},
+		{
+			"url": "unpack/loadingYu.jpg",
+			"type": "image",
+			"name": "loadingYu_jpg"
+		},
+		{
+			"url": "unpack/serverlist_goukunag2.png",
+			"type": "image",
+			"name": "serverlist_goukunag2_png"
+		},
+		{
+			"url": "unpack/serverlist_goukunag.png",
+			"type": "image",
+			"name": "serverlist_goukunag_png"
+		}
+	]
+}

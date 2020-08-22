@@ -1,0 +1,19 @@
+{
+	"skins": {},
+	"autoGenerateExmlsList": false,
+	"exmls": [
+		"resource/login_skins/CheckBoxLoginSkin.exml",
+		"resource/login_skins/CommonTipSkin.exml",
+		"resource/login_skins/DisConnectSkin.exml",
+		"resource/login_skins/GameLoadingProgressBarSkin.exml",
+		"resource/login_skins/GameLoadingViewSkin.exml",
+		"resource/login_skins/GonggaoViewSkin.exml",
+		"resource/login_skins/ServerListTextInputSkin.exml",
+		"resource/login_skins/LoginViewSkin.exml",
+		"resource/login_skins/ServerItemSkin.exml",
+		"resource/login_skins/ServerListTabbarButton.exml",
+		"resource/login_skins/ServerListViewSkin.exml",
+		"resource/login_skins/TextContentViewSkin.exml"
+	],
+	"path": "resource/login.thm.json"
+}
